@@ -6,18 +6,18 @@ module IC74HC151(
 	YF
 );
 
-parameter     DATA_SelectPart   = 3;			  	 //选择输出信号位宽
-parameter     DATA_Single_Part   = 8;			  	 //输入信号信号位宽
+parameter     DATA_SelectPart   = 3;			  	 //Select output signal width
+parameter     DATA_Single_Part   = 8;			  	 //Input signal width
 
-input         EN_Part;								 //输入试能
-input [DATA_SelectPart-1 :0]	SelectPart;			 //选择输出
-input [DATA_Single_Part-1 :0]	Single_Part;		 //输入信号
+input         EN_Part;								 //Enable
+input [DATA_SelectPart-1 :0]	SelectPart;			 //Select output
+input [DATA_Single_Part-1 :0]	Single_Part;		 //Input signal
 
 output Y,YF;
 
 reg			   Y;
 
-always@(*)begin 								//组合逻辑选择信号匹配输出
+always@(*)begin 								//Logic selection signal output
 	if(EN_Part) begin
 		Y <= 1'b0;
 		end 
@@ -37,6 +37,6 @@ always@(*)begin 								//组合逻辑选择信号匹配输出
 	end
 end
 
-assign YF= ~Y;								 //输出取放
+assign YF= ~Y;								 //Inverted output
 
 endmodule
