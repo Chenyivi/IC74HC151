@@ -19,19 +19,15 @@ IC74HC151 U1
 	.YF(YF) 	// output  YF_sig
 );
 
-defparam IC74HC151.DATA_SelectPart = 3;
-defparam IC74HC151.DATA_Single_Part = 8;
+defparam U1.DATA_SelectPart = 3;
+defparam U1.DATA_Single_Part = 8;
 
 initial begin
 	EN_Part = 1;
-	#20 EN_Part =0;
+	EN_Part =0;
 	Single_Part =1011_1101;
+	SelectPart =3'b011;
 end
-
-always begin
-		#20 SelectPart = SelectPart +1;
-	end
-	
 endmodule
 
 

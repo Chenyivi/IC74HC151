@@ -11,7 +11,7 @@ Single_Part[4] => Mux0.IN6
 Single_Part[5] => Mux0.IN5
 Single_Part[6] => Mux0.IN4
 Single_Part[7] => Mux0.IN3
-Y << Y.DB_MAX_OUTPUT_PORT_TYPE
-YF << Y.DB_MAX_OUTPUT_PORT_TYPE
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+YF <= Y.DB_MAX_OUTPUT_PORT_TYPE
 
 
