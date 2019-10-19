@@ -1,17 +1,17 @@
 |IC74HC151
-EN_Part => Y.OUTPUTSELECT
-SelectPart[0] => Mux0.IN2
-SelectPart[1] => Mux0.IN1
-SelectPart[2] => Mux0.IN0
-Single_Part[0] => Mux0.IN10
-Single_Part[1] => Mux0.IN9
-Single_Part[2] => Mux0.IN8
-Single_Part[3] => Mux0.IN7
-Single_Part[4] => Mux0.IN6
-Single_Part[5] => Mux0.IN5
-Single_Part[6] => Mux0.IN4
-Single_Part[7] => Mux0.IN3
-Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
-YF <= Y.DB_MAX_OUTPUT_PORT_TYPE
+EN_Part => ~NO_FANOUT~
+SelectPart[0] => ~NO_FANOUT~
+SelectPart[1] => ~NO_FANOUT~
+SelectPart[2] => ~NO_FANOUT~
+Single_Part[0] => ~NO_FANOUT~
+Single_Part[1] => ~NO_FANOUT~
+Single_Part[2] => ~NO_FANOUT~
+Single_Part[3] => ~NO_FANOUT~
+Single_Part[4] => ~NO_FANOUT~
+Single_Part[5] => ~NO_FANOUT~
+Single_Part[6] => ~NO_FANOUT~
+Single_Part[7] => ~NO_FANOUT~
+Y <= <GND>
+YF <= <GND>
 
 

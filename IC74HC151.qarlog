@@ -1,0 +1,37 @@
+Quartus II Archive log --	H:/TestCode/IC74HC151/IC74HC151.qarlog
+
+Archive:	H:/TestCode/IC74HC151/IC74HC151.qar
+Date:		Fri Oct 18 18:42:03 2019
+Quartus II 64-Bit		13.1.0 Build 162 10/23/2013 SJ Full Version
+
+	=========== Files Selected: ===========
+H:/TestCode/IC74HC151/db/tmp_qic_export_dir/IC74HC151.map.atm
+H:/TestCode/IC74HC151/db/tmp_qic_export_dir/IC74HC151.map.dpi
+H:/TestCode/IC74HC151/db/tmp_qic_export_dir/IC74HC151.map.hdbx
+H:/TestCode/IC74HC151/db/tmp_qic_export_dir/IC74HC151.map.logdb
+H:/TestCode/IC74HC151/db/tmp_qic_export_dir/IC74HC151.map.map.kpt
+H:/TestCode/IC74HC151/db/tmp_qic_export_dir/IC74HC151.map.qxp_info
+H:/TestCode/IC74HC151/db/tmp_qic_export_dir/IC74HC151.map.scidsc
+H:/TestCode/IC74HC151/db/tmp_qic_export_dir/qic_export_file_list
+	======= Total: 8 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Fri Oct 18 18:42:24 2019
+Source archive file:	H:/TestCode/IC74HC151/IC74HC151.qxp
+Archive was extracted into	H:/TestCode/IC74HC151/db/tmp_qic_import_dir/
+		 - successfully.
+
+
+******* Archived project restoration attempt on Fri Oct 18 18:43:22 2019
+Source archive file:	H:/TestCode/IC74HC151/IC74HC151.qxp
+Archive was extracted into	H:/TestCode/IC74HC151/db/tmp_qic_import_dir/
+		 - successfully.
+
+
+******* Archived project restoration attempt on Fri Oct 18 18:43:53 2019
+Source archive file:	H:/TestCode/IC74HC151/IC74HC151.qxp
+Archive was extracted into	H:/TestCode/IC74HC151/db/tmp_qic_import_dir/
+		 - successfully.

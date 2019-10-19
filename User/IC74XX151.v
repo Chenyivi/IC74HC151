@@ -6,7 +6,8 @@ module IC74XX151(
 	YF
 );
 
-
+input EN_Part;
+input 
 
 IC74HC151 U1
 (

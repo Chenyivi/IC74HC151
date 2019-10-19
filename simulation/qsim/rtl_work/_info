@@ -1,0 +1,47 @@
+m255
+K3
+13
+cModel Technology
+Z0 dH:\TestCode\IC74HC151\simulation\qsim
+vIC74HC151
+I2ClNid<BM<:cdMG=HH]fi3
+VbKRC5Z;Z?6j@Lo0Db^BNE2
+Z1 dH:\TestCode\IC74HC151\simulation\qsim
+w1571316182
+8H:/TestCode/IC74HC151/User/IC74HC151.v
+FH:/TestCode/IC74HC151/User/IC74HC151.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 n@i@c74@h@c151
+!i10b 1
+!s100 ;nM@<Sh7_56NdoR_hU@Ug2
+!s85 0
+!s108 1571395512.660000
+!s107 H:/TestCode/IC74HC151/User/IC74HC151.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+H:/TestCode/IC74HC151/User|H:/TestCode/IC74HC151/User/IC74HC151.v|
+!s101 -O0
+Z5 !s92 -vlog01compat -work work +incdir+H:/TestCode/IC74HC151/User -O0
+vIC74HC151_tb
+!i10b 1
+!s100 Y:oja6ofJa]`SDMKFdAId3
+If0ccTYPEDT5LzBaR2k<CM1
+VRA0ckToXOOdL4G]MkO]0a1
+R1
+w1571313170
+8H:/TestCode/IC74HC151/User/IC74HC151_tb.v
+FH:/TestCode/IC74HC151/User/IC74HC151_tb.v
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1571395512.881000
+!s107 H:/TestCode/IC74HC151/User/IC74HC151_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+H:/TestCode/IC74HC151/User|H:/TestCode/IC74HC151/User/IC74HC151_tb.v|
+!s101 -O0
+R3
+R5
+n@i@c74@h@c151_tb
